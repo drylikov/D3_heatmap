@@ -25,4 +25,3 @@ Start dev server:
 ```
 $ make start
 ```
-
