@@ -1,0 +1,29 @@
+
+{
+  "name": "d3_heatmap",
+  "version": "1.2.1",
+  "description": "D3 heatmap chart",
+  "author": "Denis Rylikov <denis.rylikov@protonmail.com>",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "make build"
+  },
+  "keywords": [
+    "d3",
+    "heatmap",
+    "chart"
+  ],
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "react-fatigue-dev": "github:drylikov/react-fatigue-dev#49fec29"
+  },
+  "dependencies": {
+    "d3": "^3.5.16"
+  },
+  "files": ["build"]
+}
